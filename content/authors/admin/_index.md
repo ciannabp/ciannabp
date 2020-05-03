@@ -5,10 +5,10 @@ bio: My research interests include distributed robotics, mobile computing and pr
   matter.
 education:
   courses:
-  - course: PhD - Social and Personality Psychology 
+  - course: PhD - Psychology 
     institution: University of Oregon
     year: expected 2022
-  - course: MS - Social and Personality Psychology
+  - course: MS - Psychology
     institution: University of Oregon
     year: 2019
   - course: BA in Psychology
@@ -38,6 +38,14 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/ciannabp
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ciannabp/
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/fx345
+  
+  
 superuser: true
 title: Cianna Bedford-Petersen
 user_groups:
@@ -46,3 +54,5 @@ user_groups:
 ---
 
 I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks.
+
+Currently I am pursuing a 5-course Data Science Specialization focused on data visualization, functional programming, and machine learning.

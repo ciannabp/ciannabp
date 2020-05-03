@@ -1,0 +1,25 @@
+# Theme metadata
+name = "pnk_blu_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#FEAC90"
+
+# Menu
+menu_primary = "#437A91" 
+menu_text = "#fcfcfc"
+menu_text_active = "#FEAC90"
+menu_title = "#fcfcfc"
+
+# Home sections
+home_section_odd = "#fcfcfc"
+home_section_even = "rgb(247, 247, 247)"
+
+# Links
+link = "#FEAC90"
+link_hover = "#437A91"
+
+
+

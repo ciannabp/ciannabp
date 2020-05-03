@@ -1,5 +1,5 @@
 # Theme metadata
-name = "Ocean"
+name = "uo_theme"
 
 # Is theme light or dark?
 light = true
@@ -8,9 +8,9 @@ light = true
 primary = "#014421"
 
 # Menu
-menu_primary = "#005529" # 500
+menu_primary = "#005529" 
 menu_text = "#fff "
-menu_text_active = "#F5CB1E" # A100
+menu_text_active = "#F5CB1E"
 menu_title = "#fff "
 
 # Home sections

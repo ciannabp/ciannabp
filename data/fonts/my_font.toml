@@ -1,0 +1,15 @@
+# Font style metadata
+name = "my_font"
+
+# Google fonts URL
+google_fonts = "Raleway"
+
+# Font families
+heading_font = "Raleway"
+body_font = "Raleway"
+nav_font = "Raleway"
+mono_font = "Raleway"
+
+# Font size
+font_size = "18"
+font_size_small = "16"

@@ -1,0 +1,18 @@
+# Theme metadata
+name = "plant_grn_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#394F31"
+
+# Menu
+menu_primary = "#394F31" 
+menu_text = "#fff"
+menu_text_active = "#797768"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "#FFF0E3"
+home_section_even = "rgb(247, 247, 247)"
