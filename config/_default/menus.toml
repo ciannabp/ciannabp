@@ -28,10 +28,29 @@
   #url = "courses/"
   #weight = 50
 
+  
+[[main]]
+  name = "CV & Résumé"
+  identifier = "resume"
+  url = "#"
+  weight = 60
+  
+[[main]]
+  name = "CV"
+  parent = "resume"
+  url = "/resume/index.html"
+  weight = 60.1
+  
+[[main]]
+  name = "Résumé"
+  parent = "resume"
+  url = "/resume/resume.html"
+  weight = 60.2
+  
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
