@@ -1,24 +1,24 @@
 # Theme metadata
-name = "pnk_blu_theme"
+name = "lightblu_pnk_theme"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#FEAC90"
+primary = "#FFE1D7"
 
 # Menu
-menu_primary = "#437A91" 
-menu_text = "#fcfcfc"
+menu_primary = "#36677F" 
+menu_text = "#FFE1D7"
 menu_text_active = "#FEAC90"
-menu_title = "#fcfcfc"
+menu_title = "#FFE1D7"
 
 # Home sections
-home_section_odd = "#fcfcfc"
+home_section_odd = "#36677F"
 home_section_even = "rgb(247, 247, 247)"
 
 # Links
-link = "#FEAC90"
+link = "#FFE1D7"
 link_hover = "#437A91"
 
 

@@ -1,0 +1,29 @@
+# Theme metadata
+name = "pineapple_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "rgb(67, 93, 26)"
+
+# Menu
+menu_primary = "rgb(240, 234, 241)" 
+menu_text = "rgb(67, 93, 26)"
+menu_text_active = "rgb(140, 198, 64)"
+menu_title = "rgb(67, 93, 26)"
+
+# Home sections
+home_section_odd = "rgb(240, 234, 241)"
+home_section_even = "rgb(243, 241, 249)" 
+
+#64, 100, 26
+#67 93 26
+
+# Links
+link = "rgb(67, 93, 26)"
+link_hover = "rgb(140, 198, 64)"
+
+#67, 93, 26
+
+

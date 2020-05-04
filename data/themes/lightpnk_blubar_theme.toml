@@ -1,0 +1,22 @@
+# Theme metadata
+name = "lightpnk_blubar_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#437A91"
+
+# Menu
+menu_primary = "rgba(67,122,145,.9)" 
+menu_text = "#fcfcfc"
+menu_text_active = "#FEAC90"
+menu_title = "#fcfcfc"
+
+# Home sections
+home_section_odd = "#FFF5F5"
+home_section_even = "#F9F8F8" 
+
+# Links
+link = "#437A91"
+link_hover = "#FEAC90"

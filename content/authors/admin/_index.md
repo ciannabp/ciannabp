@@ -16,11 +16,10 @@ education:
     year: 2014
 email: ""
 interests:
-- Personality & health
 - Online social networks
+- Personality & health
 - Predictive modeling
-- Data science & statistics
-- R programming
+- Open science
 organizations:
 - name: University of Oregon
   url: ""
@@ -47,7 +46,7 @@ social:
   
   
 superuser: true
-title: Cianna Bedford-Petersen
+title: 
 user_groups:
 - Researchers
 - Visitors
@@ -55,4 +54,4 @@ user_groups:
 
 I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks.
 
-Currently I am pursuing a 5-course Data Science Specialization focused on data visualization, functional programming, and machine learning.
+Currently I am pursuing a 5-course [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.

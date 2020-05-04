@@ -1,0 +1,26 @@
+# Theme metadata
+name = "lightpnk_blu_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#1A6B93"
+
+# Menu
+menu_primary = "#FFF5F5" 
+menu_text = "#1A6B93"
+menu_text_active = "#A2D3EC"
+menu_title = "#1A6B93"
+
+# Home sections
+home_section_odd = "#FFF5F5"
+home_section_even = "#F9F8F8" 
+
+# Link
+link = "#1A6B93"
+link_hover = "#A2D3EC"
+
+#pink link hover FEAC90
+#1A6B93
+#lt gray background
