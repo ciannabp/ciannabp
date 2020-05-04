@@ -11,7 +11,7 @@ education:
   - course: MS - Psychology
     institution: University of Oregon
     year: 2019
-  - course: BA in Psychology
+  - course: BA - Psychology
     institution: St. Olaf College
     year: 2014
 email: ""
@@ -25,9 +25,6 @@ organizations:
   url: ""
 role: Doctoral Student
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'cbedford@uoregon.edu'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ciannabp
@@ -37,12 +34,13 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/ciannabp
-- icon: linkedin-in
-  icon_pack: fab
-  link: https://www.linkedin.com/in/ciannabp/
 - icon: osf
   icon_pack: ai
   link: https://osf.io/fx345
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ciannabp/
+
   
   
 superuser: true
@@ -54,4 +52,4 @@ user_groups:
 
 I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks.
 
-Currently I am pursuing a 5-course [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
+Currently, I am pursuing a 5-course [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
