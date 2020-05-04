@@ -39,6 +39,8 @@ sheet_is_publicly_readable <- TRUE
 # document
 PDF_EXPORT <- FALSE
 
+res_PDF_LOC <- "https://github.com/ciannabp/ciannabp/raw/master/static/resume/bedford-petersen_resume.pdf"
+res_HTML_LOC <- "https://ciannabp.rbind.io/resume/resume.html"
 
 # A global (gasp) variable that holds all the links that were inserted for
 # placement at the end
@@ -128,7 +130,14 @@ Source code on [GitHub](https://github.com/ciannabp/resume).
 
 Last updated on `r Sys.Date()`.
 
-
+```{r}
+# When in export mode the little dots are unaligned, so fix that.
+if(PDF_EXPORT){
+  glue("View this resume online with links at _{res_HTML_LOC}_")
+} else {
+  glue("[<i class='fas fa-download'></i> Download a PDF of this resume]({res_PDF_LOC})")
+}
+```
 
 Main
 ================================================================================
