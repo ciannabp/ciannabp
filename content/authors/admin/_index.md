@@ -2,7 +2,7 @@
 authors:
 - admin
 bio: 
-  matter.
+  University of Oregon
 education:
   courses:
   - course: PhD - Psychology 
