@@ -1,0 +1,246 @@
+---
+title: "Cianna Bedford-Petersen's CV"
+author: Cianna Bedford-Petersen
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(glue)
+library(tidyverse)
+library(pagedown)
+
+# ======================================================================
+# These variables determine how the the data is loaded and how the exports are
+# done.
+
+# Is data stored in google sheets? If no data will be gather from the csvs/
+# folder in project
+using_googlesheets <- TRUE
+
+# Just the copied URL from the sheet
+positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/1GXaLpPM1zBxquPTobZ2L2lGBZDxOOOvb5W16w01OlZE/edit#gid=1406459246"
+
+# Is this sheet available for anyone to read? If you're using a private sheet
+# set this to false and go to gather_data.R and run the data loading manually
+# once to cache authentication
+sheet_is_publicly_readable <- TRUE
+
+# Is the goal of this knit to build a document that is exported to PDF? If so
+# set this to true to have links turned into footnotes at the end of the
+# document
+PDF_EXPORT <- FALSE
+
+
+CV_PDF_LOC <- "https://github.com/ciannabp/ciannabp/raw/master/static/cv/bedford-petersen_cv.pdf"
+CV_HTML_LOC <- "https://ciannabp.rbind.io/cv/index.html"
+
+
+# A global (gasp) variable that holds all the links that were inserted for
+# placement at the end
+links <- c()
+
+# ======================================================================
+# Now we source two external scripts. One contains functions for building the
+# text output and the other loads up our data from either googlesheets or csvs
+
+# Functions for building sections from CSV data
+source('parsing_functions.R') 
+
+# Load data for CV/Resume
+source('gather_data.R')
+```
+
+
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("
+  <style>
+  :root{
+    --decorator-outer-offset-left: -6.5px;
+  }
+  </style>")
+}
+
+```
+
+
+Aside
+================================================================================
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r}
+contact_info %>% 
+  glue_data("- <i class='fa fa-{icon}'></i> {contact}")
+```
+
+
+
+Programming Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+build_skill_bars(skills)
+```
+
+Statistical Skills {#stats}
+--------------------------------------------------------------------------------
+
+```{r}
+build_stats_bars(stats)
+```
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with [**pagedown**](https://github.com/rstudio/pagedown). 
+
+Source code on [GitHub](https://github.com/ciannabp/resume).
+
+Last updated on `r Sys.Date()`.
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that.
+if(PDF_EXPORT){
+  glue("View this CV online with links at _{CV_HTML_LOC}_")
+} else {
+  glue("[<i class='fas fa-download'></i> Download a PDF of this CV]({CV_PDF_LOC})")
+}
+```
+
+Main
+================================================================================
+
+Cianna Bedford-Petersen {#title}
+--------------------------------------------------------------------------------
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'education')
+```
+
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'professional_experience')
+```
+
+
+Peer-reviewed Publications {data-icon=book}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+print_text_block(text_blocks, 'industy_experience_aside')
+```
+:::
+
+```{r}
+print_section(position_data, 'peer_reviewed_publications')
+```
+
+<!-- These breaks just force a new page so section doesnt get cut off -->
+
+
+Works in Progress {data-icon=edit}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+print_text_block(text_blocks, 'teaching_experience_aside')
+```
+:::
+
+```{r}
+print_section(position_data, 'progress')
+```
+
+Selected Talks {data-icon=users}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'talks')
+```
+
+Selected Poster Presentations {data-icon=image}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'posters')
+```
+
+
+Honors & Awards {data-icon=medal}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'awards')
+```
+
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'teaching')
+```
+
+
+
+Service Work {data-icon=handshake}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'service')
+```
+
+
+References {data-icon=address-card}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'references')
+```
+
+
+```{r}
+if(PDF_EXPORT){
+  cat("
+  
+Links {data-icon=link}
+--------------------------------------------------------------------------------
+
+<br>
+
+
+")
+  
+  walk2(links, 1:length(links), function(link, index){
+    print(glue('{index}. {link}'))
+  })
+}
+```
+
+

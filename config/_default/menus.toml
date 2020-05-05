@@ -31,20 +31,20 @@
   
 [[main]]
   name = "CV & Résumé"
-  identifier = "resume"
+  identifier = "cv"
   url = "#"
   weight = 60
   
 [[main]]
   name = "CV"
-  parent = "resume"
-  url = "/resume/index.html"
+  parent = "cv"
+  url = "/cv/index.html"
   weight = 60.1
   
 [[main]]
   name = "Résumé"
   parent = "resume"
-  url = "/resume/resume.html"
+  url = "/cv/resume.html"
   weight = 60.2
   
 [[main]]
