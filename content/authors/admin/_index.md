@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
+bio: 
   matter.
 education:
   courses:
@@ -21,6 +21,8 @@ interests:
 - Predictive modeling
 - Open science
 organizations:
+- name: Personality & Social Dynamics Lab
+  url: "https://psdlab.uoregon.edu/"
 - name: University of Oregon
   url: ""
 role: Doctoral Student
