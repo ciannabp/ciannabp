@@ -43,7 +43,7 @@
   
 [[main]]
   name = "Résumé"
-  parent = "resume"
+  parent = "cv"
   url = "/cv/resume.html"
   weight = 60.2
   
