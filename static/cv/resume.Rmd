@@ -135,7 +135,7 @@ Last updated on `r Sys.Date()`.
 if(PDF_EXPORT){
   glue("View this resume online with links at _{res_HTML_LOC}_")
 } else {
-  glue("[<i class='fas fa-download'></i> Download a PDF of this resume]({res_PDF_LOC})")
+  glue("[<i class='fas fa-download'></i> Download PDF of resume]({res_PDF_LOC})")
 }
 ```
 
