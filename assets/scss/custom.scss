@@ -15,3 +15,21 @@ body {
     background-image: linear-gradient(to bottom, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91ed, #437A91ba) !important;  
 }
 
+/*----NAV LINK HOVER ANIMATION -----*/
+
+.nav-link:hover {
+  color: #FEAC90 !important;
+}
+
+/*----BUTTON COLOR -----*/
+
+.btn {
+  background-color: #437A91;
+  color: #fff !important;
+  
+}
+
+.btn:hover {
+  color: #FEAC90 !important;
+  background-color: #3e5e6d;
+}

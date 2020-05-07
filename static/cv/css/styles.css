@@ -9,12 +9,24 @@ body {
 }
 
 /* Give headers playfair font */
-h1,
-h2,
-h3 {
+h1{
   font-family: "Playfair Display", serif;
   color: #000;
+  text-transform: capitalize;
+  font-size: 34px !important;
 }
+h2{
+  font-family: "Playfair Display", serif;
+  color: #000;
+  text-transform: uppercase;
+}
+h3
+{
+  font-family: "Playfair Display", serif;
+  color: #000;
+  text-transform: capitalize;
+}
+
 
 /* When in PDF export mode make sure superscripts are nice and small and italic */
 sup {

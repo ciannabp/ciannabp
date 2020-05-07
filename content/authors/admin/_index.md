@@ -1,8 +1,8 @@
 ---
 authors:
 - admin
-bio: 
-  University of Oregon
+bio: Cianna Bedford-Petersen is a personality psychologist interested in online social networks, data visualization, and open science
+
 education:
   courses:
   - course: PhD - Psychology 
@@ -20,12 +20,13 @@ interests:
 - Personality & health
 - Predictive modeling
 - Open science
+name:
 organizations:
+- name: Doctoral Student
 - name: Personality & Social Dynamics Lab
   url: "https://psdlab.uoregon.edu/"
 - name: University of Oregon
   url: ""
-role: Doctoral Student
 social:
 - icon: twitter
   icon_pack: fab

@@ -14,8 +14,12 @@ menu_text_active = "#FEAC90"
 menu_title = "#fcfcfc"
 
 # Home sections
-home_section_odd = "#FFF5F5"
-home_section_even = "#F9F8F8" 
+background = "#fcfcfc"
+home_section_odd = "#fffafa"
+home_section_even = "#fcfcfc" 
+
+#pink
+#FFF5F5
 
 # Links
 link = "#437A91"
