@@ -28,17 +28,12 @@
   </url>
   
   <url>
+    <loc>/my-project/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/online-social-networks/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/predictive-modeling/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,7 +43,7 @@
   </url>
   
   <url>
-    <loc>/project/twitter-mental-health/</loc>
+    <loc>/my-project/twitter-mental-health/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,17 +53,7 @@
   </url>
   
   <url>
-    <loc>/tag/natural-language-processing/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/network-analysis/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/t1d-twitter/</loc>
+    <loc>/my-project/t1d-twitter/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,7 +88,7 @@
   </url>
   
   <url>
-    <loc>/project/personality-and-situations/</loc>
+    <loc>/my-project/personality-and-situations/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -144,17 +129,17 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>/contact/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>/projects/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
