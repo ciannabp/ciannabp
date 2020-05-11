@@ -14,9 +14,9 @@ menu_text_active = "#FEAC90"
 menu_title = "#fffafa"
 
 # Home sections
-background = "#fffafa"
-home_section_odd = "#fffafa"
-home_section_even = "#fffafa" 
+background = "#fffdfa"
+home_section_odd = "#fffdfa"
+home_section_even = "#fffdfa" 
 
 #pink
 #FFF5F5
@@ -26,6 +26,9 @@ home_section_even = "#fffafa"
 
 #lightest pink
 #fffafa
+
+#lightest tan
+##fff9f2
 
 #blue
 #rgb(67,122,145)
