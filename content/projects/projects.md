@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "My Projects"
+subtitle = ""
 
 
 [content]
@@ -38,10 +38,9 @@ subtitle = "My Projects"
     name = "Health"
     tag = "Health"
 
-
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
   # Toggle between the various page layout types.
   #   1 = List

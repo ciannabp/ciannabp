@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Karla|Raleway");
+
 /* Whole document: */
 
 body {
@@ -15,11 +17,21 @@ body {
     background-image: linear-gradient(to bottom, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91ed, #437A91ba) !important;  
 }
 
+h1, 
+h2, 
+h3,
+h4{
+  text-transform: capitalize !important;
+}
 
-/*----NAV LINK HOVER ANIMATION -----*/
+/*----NAV BAR -----*/
 
 .nav-link:hover {
   color: #FEAC90 !important;
+}
+
+.navbar-nav {
+  text-transform: lowercase !important;
 }
 
 /*----BUTTON COLOR -----*/
@@ -34,3 +46,17 @@ body {
   color: #FEAC90 !important;
   background-color: #3e5e6d;
 }
+
+/* buttons */
+
+.btn-toolbar {
+  justify-content: center !important;
+}
+
+/* cards */
+.article-style {
+  font-family: "Karla" !important;
+}
+
+
+

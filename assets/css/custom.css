@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
 /* Whole document: */
 
 body {
@@ -12,4 +13,65 @@ body {
     background-image: linear-gradient(to bottom, #fcfcfc33 50%, rgba(252,252,252,0)) !important;  
 }
 
+h1, 
+h2, 
+h3,
+h4{
+  text-transform: capitalize !important;
+}
 
+
+/* about-contact helpers */
+
+.mini {
+	text-align: left !important;
+	margin-left: 10rem !important;
+	margin-right: 10rem !important;
+	padding-bottom: 68px !important;
+  border-bottom: 1px solid #d53135 !important;
+}
+
+hr {
+  border: 0 !important;
+  height: 1px !important;
+  background: #d53135 !important;
+  background-image: none !important;
+}
+
+.center-block {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+ }
+ 
+.home-section.wg-experience .card-body {
+	padding: .5rem !important;
+}
+ 
+.home-section.wg-experience .card .card-text{
+  padding: 0 !important;
+}
+
+/* images more like cards; iframes more seamless */
+
+img {
+	margin-bottom: 1.5rem !important;
+	overflow: hidden !important;
+	background: #fff !important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) !important;
+}
+
+iframe {
+	border: 0 !important;
+}
+
+/* buttons */
+
+.btn-toolbar {
+  justify-content: center !important;
+}
+
+/* buttons */
+.article-style {
+  font-family: "Karla" !important;
+}
