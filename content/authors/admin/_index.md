@@ -1,8 +1,7 @@
 ---
-authors:
+authors: 
 - admin
 bio: Cianna Bedford-Petersen is a personality psychologist interested in online social networks, data visualization, and open science
-
 education:
   courses:
   - course: PhD - Psychology 
@@ -14,14 +13,14 @@ education:
   - course: BA - Psychology
     institution: St. Olaf College
     year: 2014
-email: ""
+email: 
 interests:
 - Online social networks
 - Personality & health
 - Predictive modeling
 - Open science
-name:
-organizations:
+name: Cianna
+organizations: 
 - name: Doctoral Student
 - name: Personality & Social Dynamics Lab
   url: "https://psdlab.uoregon.edu/"

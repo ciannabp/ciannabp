@@ -5,21 +5,22 @@ name = "lightpnk_blu_theme"
 light = true
 
 # Primary
-primary = "#1A6B93"
+primary = "#437A91"
 
 # Menu
-menu_primary = "#FFF5F5" 
-menu_text = "#1A6B93"
-menu_text_active = "#A2D3EC"
-menu_title = "#1A6B93"
+menu_primary = "#fffdfa" 
+menu_text = "#437A91"
+menu_text_active = "#FEAC90"
+menu_title = "#437A91"
 
 # Home sections
-home_section_odd = "#FFF5F5"
-home_section_even = "#F9F8F8" 
+background = "#fffdfa"
+home_section_odd = "#fffdfa"
+home_section_even = "#fffdfa" 
 
 # Link
-link = "#1A6B93"
-link_hover = "#A2D3EC"
+link = "#437A91"
+link_hover = "#FEAC90"
 
 #pink link hover FEAC90
 #1A6B93

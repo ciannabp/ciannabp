@@ -8,15 +8,18 @@ light = true
 primary = "#437A91"
 
 # Menu
-menu_primary = "rgb(67,122,145)" 
-menu_text = "#fffafa"
+menu_primary = "#437A91" 
+menu_text = "#fffdfa"
 menu_text_active = "#FEAC90"
-menu_title = "#fffafa"
+menu_title = "#fffdfa"
 
 # Home sections
 background = "#fffdfa"
 home_section_odd = "#fffdfa"
 home_section_even = "#fffdfa" 
+
+link = "#437A91"
+link_hover = "#FEAC90"
 
 #pink
 #FFF5F5
@@ -28,11 +31,10 @@ home_section_even = "#fffdfa"
 #fffafa
 
 #lightest tan
-##fff9f2
+#fffdfa
 
 #blue
 #rgb(67,122,145)
 
 # Links
-link = "#437A91"
-link_hover = "#FEAC90"
+

@@ -17,7 +17,13 @@ body {
     background-image: linear-gradient(to bottom, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91, #437A91ed, #437A91ba) !important;  
 }
 
-h1, 
+head {
+   font-weight: bold !important;
+} 
+
+h1{
+   font-size: 36px !important;
+} 
 h2, 
 h3,
 h4{
@@ -32,7 +38,11 @@ h4{
 
 .navbar-nav {
   text-transform: lowercase !important;
-  font-size: 18px !important;
+  font-size: 20px !important;
+}
+
+.navbar-brand {
+  font-size: 30px !important;
 }
 
 /*----BUTTON COLOR -----*/
