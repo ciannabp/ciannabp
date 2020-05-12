@@ -18,7 +18,7 @@ interests:
 - Online social networks
 - Personality & health
 - Predictive modeling
-- Open science
+- Reproducible research
 name: Cianna
 organizations: 
 - name: Doctoral Student

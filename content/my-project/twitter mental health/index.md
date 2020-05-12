@@ -10,7 +10,7 @@ links:
 tags:
 - Online social networks
 
-title: Twitter, Personality, and Mental Health
+title: Twitter and Mental Health
 summary: Does mental health predict the Twitter friends we choose?
 url_code: ""
 url_pdf: ""

@@ -27,15 +27,15 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Personality"
+    name = "personality"
     tag = "Personality"
   
   [[content.filter_button]]
-    name = "Online social networks"
+    name = "online social networks"
     tag = "Online social networks"
 
   [[content.filter_button]]
-    name = "Health"
+    name = "health"
     tag = "Health"
 
 [design]

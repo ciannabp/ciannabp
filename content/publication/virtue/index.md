@@ -6,7 +6,7 @@ date: "2018-05-17T00:00:00Z"
 doi: ""
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   focal_point: ""
   preview_only: false
 links:
@@ -17,7 +17,7 @@ publication: ""
 publication_short: ""
 
 publishDate: "2020-01-05T00:00:00Z"
-summary: We provide some initial evidence that traditional psychological approaches to well-being are commensurable with our personal projects approach, by demonstrating in a longitudinal sample that success in current personal projects predicts various forms of subjective well-being, even when controlling for past levels of well-being and project success.
+summary: We demonstrate in a longitudinal sample that success in current personal projects predicts various forms of subjective well-being, even when controlling for past levels of well-being and project success.
 tags:
 - Well-being
 - Longitudinal
