@@ -81,7 +81,7 @@
       <link>/my-project/twitter-mental-health/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <guid>/my-project/twitter-mental-health/</guid>
-      <description>&lt;p&gt;The last decade has seen explosive growth of online social networks, which are now a pervasive part of everyday life for many people. As such, it is important to understand the relationship between social media and mental health. Previous research has documented a variety of relationships between psychological characteristics and online behaviors. For example, it has found that positive and negative emotions are related to self-expression online. Additionally, personality traits are correlated with word use and patterns of “likes” in Facebook and with word use and network structure on Twitter.&lt;/p&gt;
+      <description>&lt;p&gt;The last decade has seen explosive growth of online social networks, which are now a pervasive part of everyday life for many people. As such, it is important to understand the relationship between social media and mental health. Previous research has documented a variety of relationships between psychological characteristics and online behaviors. For example, it has been found that positive and negative emotions are related to self-expression online. Additionally, personality traits are correlated with word use and patterns of “likes” in Facebook and with word use and network structure on Twitter.&lt;/p&gt;
 &lt;p&gt;Although previous work in this area has been promising, social media studies to date often rely on outward facing behaviors such as public posts or “likes” which are subject to self-monitoring or a public persona. Instead, we will use Twitter friends (the accounts one chooses to follow) as a behavioral measure that is less publicly highlighted on the platform and therefore, less subject to self-monitoring. We will use this behavioral data, as well as, self-reports of personality and mental health characteristics to better understand the relationship between mental health and social media usage. Specifically, we will examine if current mental health predicts which Twitter accounts participants choose to follow. This research will help us better understand how mental health and personality shape people’s online experiences.&lt;/p&gt;
 </description>
     </item>
@@ -552,6 +552,14 @@ Three
       <link>/publication/virtue/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       <guid>/publication/virtue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Media Habits</title>
+      <link>/my-project/social-media-attitudes/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-project/social-media-attitudes/</guid>
       <description></description>
     </item>
     
