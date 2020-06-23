@@ -52,6 +52,6 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks. I am also completing a [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
+I am a Psychology PhD Student at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks. I am also completing a [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
 
-I am excited to apply the data science skills I have developed to collaborative projects with societal benefit. When I'm not coding, I love [baking](https://www.instagram.com/milkandhoneycrisp/) and exploring the Pacific Northwest. 
+I am excited to apply my analytical skills to collaborative projects focused on real-world problems and societal benefit. When I'm not coding, I love [baking](https://www.instagram.com/milkandhoneycrisp/) and exploring the Pacific Northwest. 
