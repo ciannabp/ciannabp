@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 library(glue)
 library(tidyverse)
 library(pagedown)
+library(googlesheets4)
 
 # ======================================================================
 # These variables determine how the the data is loaded and how the exports are
