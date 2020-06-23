@@ -17,7 +17,7 @@ email:
 interests:
 - Online social networks
 - Personality & health
-- Predictive modeling
+- R programming
 - Reproducible research
 name: Cianna
 organizations: 
@@ -39,9 +39,9 @@ social:
 - icon: osf
   icon_pack: ai
   link: https://osf.io/fx345
-- icon: linkedin-in
+- icon: instagram
   icon_pack: fab
-  link: https://www.linkedin.com/in/ciannabp/
+  link: https://www.instagram.com/milkandhoneycrisp/
 
   
   
@@ -52,6 +52,6 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks.
+I am a PhD Student in the Department of Psychology at the University of Oregon. My research uses data-driven predictive modeling to explore personality and mental health in the context of online social networks. I am also completing a [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
 
-Currently, I am pursuing a 5-course [Data Science Specialization](https://github.com/uo-datasci-specialization) focused on data visualization, functional programming, and machine learning.
+I am excited to apply the data science skills I have developed to collaborative projects with societal benefit. When I'm not coding, I love [baking](https://www.instagram.com/milkandhoneycrisp/) and exploring the Pacific Northwest. 

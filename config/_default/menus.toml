@@ -8,10 +8,10 @@
   #url = "#hero"
   #weight = 10
 
-#[[main]]
-  #name = "Posts"
-  #url = "#posts"
-  #weight = 20
+[[main]]
+  name = "Blog"
+  url = "/post"
+  weight = 50
 
 [[main]]
   name = "Projects"
