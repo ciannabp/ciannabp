@@ -260,9 +260,9 @@ bag_roots(fit_bag) %>%
   labs(x = "root", y = "count")
 ```
 
-## Random forests
+## Random forest
 
-Random forests learning is similar to bagged tree methodology but goes one step further. In addition to taking random subsets of data, the model also draws a random selection of features. Instead of utilizing all features, the random subset of features allows more predictors to be eligible root nodes. This is particularly useful for handling high dimensionality data (e.g., have more variables than participants/cases).
+Random forest is similar to bagged tree methodology but goes one step further. In addition to taking random subsets of data, the model also draws a random selection of features. Instead of utilizing all features, the random subset of features allows more predictors to be eligible root nodes. This is particularly useful for handling high dimensionality data (e.g., have more variables than participants/cases).
 
 ### Specify the model
 
@@ -392,7 +392,7 @@ collect_metrics(fit_bag) %>%
   knitr::kable()
 ```
 
-Here, we are faced with a common problem in the machine learning world: choosing between models that perform similarly. Whether we would prefer random forests, bagged trees, or boosted trees may also depend on computational efficiency (i.e., time) or other factors. In practice, tuning several hyperparameters may have made one model clearly preferable over the others, but in our case - relying on all defaults - we would probably have similar performance with both models on a new data set and would prefer random forest or boosted tree models for their efficiency.
+Here, we are faced with a common problem in the machine learning world: choosing between models that perform similarly. Whether we would prefer random forest, bagged trees, or boosted trees may also depend on computational efficiency (i.e., time) or other factors. In practice, tuning several hyperparameters may have made one model clearly preferable over the others, but in our case - relying on all defaults - we would probably have similar performance with both models on a new data set and would prefer random forest or boosted tree models for their efficiency.
 
 # Out-of-sample performance
 
@@ -431,4 +431,4 @@ collect_metrics(final_fit_bag) %>%
   knitr::kable()
 ```
 
-After applying our 3 trained models to the unseen test data, it looks like our boosted trees model is the winner since it has the lowest RMSE. In this example, we only used 1% of the data to train these models, which could make it difficult to meaningfully compare their performance. IN parctice, our random forest model actually results in the best out-of-sample prediction (RMSE = 84.08) when using all of the available data, which we did for the [Kaggle competition](https://www.kaggle.com/c/edld-654-spring-2020/leaderboard). 
+After applying our 3 trained models to the unseen test data, it looks like our boosted trees model is the winner since it has the lowest RMSE. In this example, we only used 1% of the data to train these models, which could make it difficult to meaningfully compare their performance. In practice, our random forest model actually results in the best out-of-sample prediction (RMSE = 84.08) when using all of the available data, which we did for the [Kaggle competition](https://www.kaggle.com/c/edld-654-spring-2020/leaderboard). 

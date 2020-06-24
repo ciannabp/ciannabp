@@ -689,9 +689,9 @@ fit_bag &amp;lt;- fit_resamples(
 &lt;p&gt;&lt;img src=&#34;/post/2020-06-24-tidymodels-decision-tree-learning-in-r/index.en_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;random-forests&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Random forests&lt;/h2&gt;
-&lt;p&gt;Random forests learning is similar to bagged tree methodology but goes one step further. In addition to taking random subsets of data, the model also draws a random selection of features. Instead of utilizing all features, the random subset of features allows more predictors to be eligible root nodes. This is particularly useful for handling high dimensionality data (e.g., have more variables than participants/cases).&lt;/p&gt;
+&lt;div id=&#34;random-forest&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Random forest&lt;/h2&gt;
+&lt;p&gt;Random forest is similar to bagged tree methodology but goes one step further. In addition to taking random subsets of data, the model also draws a random selection of features. Instead of utilizing all features, the random subset of features allows more predictors to be eligible root nodes. This is particularly useful for handling high dimensionality data (e.g., have more variables than participants/cases).&lt;/p&gt;
 &lt;div id=&#34;specify-the-model&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Specify the model&lt;/h3&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(100)
@@ -811,7 +811,7 @@ fit_boost &amp;lt;- fit_resamples(
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Here, we are faced with a common problem in the machine learning world: choosing between models that perform similarly. Whether we would prefer random forests, bagged trees, or boosted trees may also depend on computational efficiency (i.e., time) or other factors. In practice, tuning several hyperparameters may have made one model clearly preferable over the others, but in our case - relying on all defaults - we would probably have similar performance with both models on a new data set and would prefer random forest or boosted tree models for their efficiency.&lt;/p&gt;
+&lt;p&gt;Here, we are faced with a common problem in the machine learning world: choosing between models that perform similarly. Whether we would prefer random forest, bagged trees, or boosted trees may also depend on computational efficiency (i.e., time) or other factors. In practice, tuning several hyperparameters may have made one model clearly preferable over the others, but in our case - relying on all defaults - we would probably have similar performance with both models on a new data set and would prefer random forest or boosted tree models for their efficiency.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;out-of-sample-performance&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Out-of-sample performance&lt;/h1&gt;
@@ -872,7 +872,7 @@ collect_metrics(final_fit_bag) %&amp;gt;%
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;After applying our 3 trained models to the unseen test data, it looks like our boosted trees model is the winner since it has the lowest RMSE. In this example, we only used 1% of the data to train these models, which could make it difficult to meaningfully compare their performance. IN parctice, our random forest model actually results in the best out-of-sample prediction (RMSE = 84.08) when using all of the available data, which we did for the &lt;a href=&#34;https://www.kaggle.com/c/edld-654-spring-2020/leaderboard&#34;&gt;Kaggle competition&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After applying our 3 trained models to the unseen test data, it looks like our boosted trees model is the winner since it has the lowest RMSE. In this example, we only used 1% of the data to train these models, which could make it difficult to meaningfully compare their performance. In practice, our random forest model actually results in the best out-of-sample prediction (RMSE = 84.08) when using all of the available data, which we did for the &lt;a href=&#34;https://www.kaggle.com/c/edld-654-spring-2020/leaderboard&#34;&gt;Kaggle competition&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
