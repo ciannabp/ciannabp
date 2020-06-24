@@ -73,5 +73,31 @@ h4{
   font-family: "Karla" !important;
 }
 
+/* Make mobile navbar skinnier */
+
+  @media screen and (max-width: 768px) {
+    body {
+      margin-top: 100px !important;
+    }
+     .navbar {
+      min-height: 100px !important;
+    }
+  }
+  
+/*make drop down menu more opaque on mobile */
+
+@media (max-width: 991.98px) { 
+  .navbar-collapse {
+    background-color: #f7f7f7d9 !important;
+  }
+}
+
+/* Evenly spaces bio text on mobile */
+
+  @media screen and (max-width: 768px) {
+      #about .col-12.col-lg-8 {
+      padding-left: 15px !important;
+    }
+  }
 
 
