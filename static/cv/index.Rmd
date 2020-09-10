@@ -43,7 +43,7 @@ PDF_EXPORT <- FALSE
 
 
 CV_PDF_LOC <- "https://github.com/ciannabp/ciannabp/raw/master/static/cv/bedford-petersen_cv.pdf"
-CV_HTML_LOC <- "https://ciannabp.rbind.io/cv/index.html"
+CV_HTML_LOC <- "https://ciannabp.com/index.html"
 
 
 # A global (gasp) variable that holds all the links that were inserted for
