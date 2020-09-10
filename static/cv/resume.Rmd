@@ -40,7 +40,7 @@ sheet_is_publicly_readable <- TRUE
 PDF_EXPORT <- FALSE
 
 res_PDF_LOC <- "https://github.com/ciannabp/ciannabp/raw/master/static/cv/bedford-petersen_resume.pdf"
-res_HTML_LOC <- "https://ciannabp.rbind.io/cv/resume.html"
+res_HTML_LOC <- "https://ciannabp.com/cv/resume.html"
 
 # A global (gasp) variable that holds all the links that were inserted for
 # placement at the end
@@ -118,7 +118,7 @@ build_stats_bars(stats)
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at [ciannabp.rbind.io/cv/](https://ciannabp.rbind.io/cv/) for a more complete list of positions and [publications](https://scholar.google.com/citations?user=74mOaFcAAAAJ&hl=en).
+See full CV at [ciannabp.com/cv/](https://ciannabp.com/cv/) for a more complete list of positions and [publications](https://scholar.google.com/citations?user=74mOaFcAAAAJ&hl=en).
 
 
 Disclaimer {#disclaimer}
