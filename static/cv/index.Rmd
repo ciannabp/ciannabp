@@ -178,7 +178,14 @@ print_text_block(text_blocks, 'teaching_experience_aside')
 print_section(position_data, 'progress')
 ```
 
-Selected Talks {data-icon=users}
+Chaired Symposia {data-icon=users}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'symposia')
+```
+
+Selected Talks {data-icon=comments}
 --------------------------------------------------------------------------------
 
 ```{r}
