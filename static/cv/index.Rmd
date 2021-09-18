@@ -88,6 +88,8 @@ contact_info %>%
   glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
 
+<br>
+<br>
 
 
 Programming Skills {#skills}
@@ -96,6 +98,9 @@ Programming Skills {#skills}
 ```{r}
 build_skill_bars(skills)
 ```
+<br>
+
+
 
 Statistical Skills {#stats}
 --------------------------------------------------------------------------------
@@ -104,10 +109,17 @@ Statistical Skills {#stats}
 build_stats_bars(stats)
 ```
 
+<br>
+<br>
+<br>
+<br>
+
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
+
+
 
 Made with [**pagedown**](https://github.com/rstudio/pagedown). 
 
@@ -165,18 +177,12 @@ print_section(position_data, 'peer_reviewed_publications')
 <!-- These breaks just force a new page so section doesnt get cut off -->
 
 
-Works in Progress {data-icon=edit}
---------------------------------------------------------------------------------
-
 ::: aside
 ```{r}
 print_text_block(text_blocks, 'teaching_experience_aside')
 ```
 :::
 
-```{r}
-print_section(position_data, 'progress')
-```
 
 Chaired Symposia {data-icon=users}
 --------------------------------------------------------------------------------

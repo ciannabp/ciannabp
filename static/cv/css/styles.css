@@ -41,6 +41,12 @@ sup {
 
 * {
   /* Override default right margin for sidebar*/
+  --pagedjs-margin-top: 0.3in !important;
+  --pagedjs-margin-bottom: 0.2in !important;
+}
+
+* {
+  /* Override default right margin for sidebar*/
   --pagedjs-margin-right: 0.2in;
   --pagedjs-margin-left: 0.2in;
 }

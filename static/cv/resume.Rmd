@@ -71,7 +71,6 @@ Aside
 <br>
 <br>
 <br>
-<br>
 
 
 
@@ -84,9 +83,7 @@ contact_info %>%
 ```
 
 <br>
-<br>
-<br>
-<br>
+
 
 Language Skills {#skills}
 --------------------------------------------------------------------------------
@@ -106,13 +103,7 @@ build_stats_bars(stats)
 ```
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 
 More info {#more-info}
@@ -124,11 +115,11 @@ See full CV at [ciannabp.com/cv/](https://ciannabp.com/cv/) for a more complete 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with [**pagedown**](https://github.com/rstudio/pagedown). 
 
 Source code on [GitHub](https://github.com/ciannabp/resume).
 
 Last updated on `r Sys.Date()`.
+
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that.
@@ -139,12 +130,12 @@ if(PDF_EXPORT){
 }
 ```
 
+
 Main
 ================================================================================
 
 Cianna Bedford-Petersen {#title}
 --------------------------------------------------------------------------------
-
 ```{r}
 print_text_block(text_blocks, 'intro')
 ```
