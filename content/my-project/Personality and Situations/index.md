@@ -5,6 +5,8 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
+- name: Publication
+  url: https://diabetes.jmir.org/2021/4/e30756
 - name: Preregistration
   url: https://osf.io/wpyf3
 - name: Poster

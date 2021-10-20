@@ -5,6 +5,8 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
+- name: Presentation
+  url: https://docs.google.com/presentation/d/12mxT5N3r9RBJTRlBbWbpYeEQav-MmrfN/edit?usp=sharing&ouid=108069169257925346791&rtpof=true&sd=true
 - name: Preregistration
   url: https://osf.io/ph2v3
 tags:

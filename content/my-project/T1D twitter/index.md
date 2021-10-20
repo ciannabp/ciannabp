@@ -5,6 +5,8 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 links:
+- name: Publication
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0191886920306863
 - name: Preregistration
   url: https://osf.io/w67yb
 - name: Github

@@ -18,9 +18,6 @@ publication_short: ""
 
 publishDate: "2020-01-05T00:00:00Z"
 summary: We demonstrate in a longitudinal sample that success in current personal projects predicts various forms of subjective well-being, even when controlling for past levels of well-being and project success.
-tags:
-- Well-being
-- Longitudinal
 title: Integrating philosophical and psychological approaches to well-being - The role of success in personal projects
 
 ---

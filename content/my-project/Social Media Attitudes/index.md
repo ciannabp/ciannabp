@@ -6,6 +6,6 @@ image:
   focal_point: Smart
 summary: Step-by-step visualizations of data from the PEW Research Center
 tags:
-- Demo
+- online social networks
 title: Social Media Habits
 ---
